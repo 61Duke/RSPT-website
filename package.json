@@ -1,0 +1,33 @@
+{
+  "name": "rspt",
+  "version": "0.0.1",
+  "description": "rspt study abroad",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "grunt-mocha-test": "^0.13.2",
+    "jade": "^1.11.0",
+    "path": "^0.12.7",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-nodemon": "^0.5.4",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "rspt",
+    "abroad"
+  ],
+  "author": "weihaitong",
+  "license": "ISC"
+}

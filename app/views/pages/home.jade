@@ -1,0 +1,36 @@
+extends ../layout
+
+block content
+  #rspt-main
+    aside#rspt-hero.js-fullheight
+      .flexslider.js-fullheight
+        ul.slides
+          each item in home_flexsider
+            li(style="background-image: url(#{item.home_background});")
+              .overlay
+              .container-fluid
+                .row
+                  .col-md-8.col-md-offset-2.text-center.js-fullheight.slider-text
+                    .slider-text-inner
+                      h1 #{item.title}
+                      h2 #{item.subtitle}
+
+    .rspt-narrow-content
+          h2.rspt-heading.animate-box(data-animate-effect="fadeInLeft") 情怀
+          .row.row-bottom-padded-md
+              .col-md-3.col-sm-6.col-padding.text-center.animate-box
+                .work.image-popup(style="background-image: url(/images/travel_the_world.jpg)")
+                  .desc
+                    h3 RSPT意为"记录，分享，思考，超越"，千千万万留学游子海外学习，拥有不同的精彩人生，一个平台拥有不同的声音、不同的人生记录，在这里找到生活的指明灯，也给每一位留学在外的游子们心里一点慰藉。
+              .col-md-3.col-sm-6.col-padding.text-center.animate-box
+                .work.image-popup(style="background-image: url(/images/airplane.png)")
+                  .desc
+                    h3 我认为留学是一场关于自我的旅行。最好的教育是能够催化自己、帮助别人自我觉醒的过程。如果你觉醒了，你有足够强的动力和导航能力，加上一定基本的技能，你可以学回任何新的东西。
+              .col-md-3.col-sm-6.col-padding.text-center.animate-box
+                .work.image-popup(style="background-image: url(/images/slide.jpg)")
+                  .desc
+                    h3 留学，就是要学会拥有国际化的胜任力
+              .col-md-3.col-sm-6.col-padding.text-center.animate-box
+                .work.image-popup(style="background-image: url(/images/direction.jpg)")
+                  .desc
+                    h3 留学，让我拥有强烈的求知欲，探索不同城市的好奇心，较强的自我管理能力和批判精神，并且对教育实践及其关注。

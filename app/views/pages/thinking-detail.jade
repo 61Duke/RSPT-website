@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+ #rspt-main
+  .rspt-narrow-content
+    .row.row-bottom-padded-md
+      .col-md-6.animate-box(data-animate-effect="fadeInLeft")
+        embed.lifeVideo(src="#{thinking_detail.thinking_video}",allowFullScreen="true",qulity="best",align="middle",type="application/x-shockwave-flash")
+
+    .col-md-6.animate-box(data-animate-effect="fadeInLeft")
+    h2.rspt-lifeVideo-detail #{thinking_detail.title}
+    p.rspt-lifeVideo-content #{thinking_detail.info}

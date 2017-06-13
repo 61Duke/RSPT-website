@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+ #rspt-main
+  .rspt-narrow-content
+    .row.row-bottom-padded-md
+      .col-md-6.animate-box(data-animate-effect="fadeInLeft")
+        embed.lifeVideo(src="#{interview_detail.interview_video}",allowFullScreen="true",qulity="best",align="middle",type="application/x-shockwave-flash")
+
+    .col-md-6.animate-box(data-animate-effect="fadeInLeft")
+    h2.rspt-lifeVideo-detail #{interview_detail.title}
+    p.rspt-lifeVideo-content #{interview_detail.info}

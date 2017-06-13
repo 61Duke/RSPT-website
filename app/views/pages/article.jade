@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+    #rspt-main
+        .rspt-narrow-content
+          h2.rspt-heading.animate-box(data-animate-effect="fadeInLeft") 文章精选
+          .row.row-bottom-padded-md
+            each item in article_list
+              .col-md-3.col-sm-6.col-padding.text-center.animate-box
+                a.work.image-popup(href="/article/detail/#{item._id}", style="background-image: url(#{item.article_background})")
+                  .desc
+                    h3 #{item.title}
+                    span #{item.info}
+

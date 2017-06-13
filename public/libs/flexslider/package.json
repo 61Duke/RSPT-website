@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "flexslider",
+        "scope": null,
+        "escapedName": "flexslider",
+        "name": "flexslider",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Administrator"
+    ]
+  ],
+  "_from": "flexslider@latest",
+  "_id": "flexslider@2.6.3",
+  "_inCache": true,
+  "_location": "/flexslider",
+  "_nodeVersion": "4.4.5",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/flexslider-2.6.3.tgz_1473175079350_0.611484671710059"
+  },
+  "_npmUser": {
+    "name": "jeffikus",
+    "email": "jeffikus@gmail.com"
+  },
+  "_npmVersion": "3.9.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "flexslider",
+    "scope": null,
+    "escapedName": "flexslider",
+    "name": "flexslider",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/flexslider/-/flexslider-2.6.3.tgz",
+  "_shasum": "0545bef03af8198460c45c4947d9474e15be174e",
+  "_shrinkwrap": null,
+  "_spec": "flexslider",
+  "_where": "C:\\Users\\Administrator",
+  "author": {
+    "name": "WooThemes",
+    "email": "jeff@woothemes.com"
+  },
+  "bugs": {
+    "url": "https://github.com/woothemes/FlexSlider/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.11.3"
+  },
+  "description": "An awesome, fully responsive jQuery slider toolkit.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "0545bef03af8198460c45c4947d9474e15be174e",
+    "tarball": "https://registry.npmjs.org/flexslider/-/flexslider-2.6.3.tgz"
+  },
+  "gitHead": "10be96e86acbec5c81d581f763730dd2f932a839",
+  "homepage": "https://github.com/woothemes/FlexSlider#readme",
+  "keywords": [
+    "flexslider",
+    "jquery",
+    "slider",
+    "woothemes",
+    "automattic"
+  ],
+  "license": "GPL-2.0",
+  "main": "jquery.flexslider.js",
+  "maintainers": [
+    {
+      "name": "jeffikus",
+      "email": "jeffikus@gmail.com"
+    }
+  ],
+  "name": "flexslider",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woothemes/FlexSlider.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.6.3"
+}

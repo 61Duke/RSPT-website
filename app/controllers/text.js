@@ -1,0 +1,1 @@
+{ interview_list_poster: '/images/interview/truth/1.png', title: '第1集', info: '我们用做媒体的本领 颠覆你的留学三观 打破留学行业的暴利！', _id: 1 }, { interview_list_poster: '/images/interview/truth/2.png', title: '第2集', info: '我们用做媒体的本领 颠覆你的留学三观 打破留学行业的暴利！', _id: 2 }, { interview_list_poster: '/images/interview/truth/3.png', title: '第3集', info: '我们用做媒体的本领 颠覆你的留学三观 打破留学行业的暴利！', _id: 3 },

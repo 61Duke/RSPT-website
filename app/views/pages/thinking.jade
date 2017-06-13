@@ -1,0 +1,22 @@
+extends ../layout
+
+block content
+ #rspt-main
+  .rspt-narrow-content
+    h2.rspt-heading.animate-box(data-animate-effect="fadeInLeft") 思想碰撞
+    .row.row-bottom-padded-md
+     each item in thinking_list
+      .col-md-3.col-sm-6.col-padding.animate-box(data-animate-effect="fadeInLeft")
+        .blog-entry
+          a.blog-img(href="/thinking/detail/#{item._id}")
+            img.img-all(src="#{item.thinking_poster}")
+          .desc
+            h3
+              a(href="/thinking/detail/#{item._id}") #{item.title}
+            span
+              small #{item.author}
+              small
+                i.icon-comment 14
+            p #{item.introduction}
+            a.lead(href="#") Read More
+              i.icon-arrow-right3
