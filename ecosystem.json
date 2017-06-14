@@ -1,0 +1,28 @@
+{
+	"app":[
+		{
+			"name":"RSPT",
+			"script":"app.js",
+			"env":{
+				"COMMON_VARIABLE":"true"
+			},
+			"env_production":{
+				"NODE_ENV":"production"
+			}
+		}
+	],
+	"deploy":{
+		"production":{
+			"user":"rspt_manager",
+			"host":["47.94.150.6"],
+			"port":"22",
+			"ref":"origin/master",
+			"repo":"git@git.oschina.net:weihaitong/rspt-website.git",
+			"path":"/home/rspt_manager/www/RSPT/production",
+			"ssh_options":"StrictHostKeyChecking=no",
+			"env":{
+				"NODE_ENV":"production"
+			}
+		}
+	}
+}
